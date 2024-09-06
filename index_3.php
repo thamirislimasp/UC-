@@ -13,7 +13,13 @@ $json = '{
     "administrador" : "João Ribeiro",
     "secretária" : "Carla Santos",
     "diretor_geral" : "Márcio Silva",
-    "oficial_contas" : "Fernada Correia"
+    "oficial_contas" : "Fernada Correia",
+    "colaboradores" : {
+        "chefe" : "Antônio Daniel",
+        "coordenador_1" : "Marta",
+        "coordenador_2" : "Marisa",
+        "coordenador_3" : "Francisco"
+    }
 }';
 
 $dados_empresa = json_decode ($json, true);
