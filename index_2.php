@@ -21,6 +21,8 @@ for($a = 1; $a <= 5; $a++) {
     }
 }
 
+echo '<pre>';
+
 echo json_encode($dados, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
 
 ?>
